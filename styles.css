@@ -1,0 +1,155 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #fafafa;
+}
+h1{
+    font-size: 66px;
+    font-weight: 600;
+    line-height: 80px;
+}
+H2{
+    font-size: 48px;
+    margin-bottom: 30px;
+    color:#948a8a; 
+}
+p{
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.parrafo2{
+
+    line-height: 1.8;
+    margin-bottom: 0;
+    color:#8b8686
+}
+    .container-fluid{
+        text-align: center;
+        padding: 120px 0;
+    
+    }
+ .resaltar{
+     color:#fafbfd;
+ }
+.btn{
+
+    font-size: 15px;
+    padding: 15px 26px;
+    min-width: 160px;
+    border-radius: 2px;
+    display: inline-block;
+}
+.btn-light{
+background-color: #e6e6e6;
+color: #1a1a1a;
+border: 2px solid #a09494 ;
+}
+.btn i {
+    font-size: 14px;
+    margin-left: 5px;
+}
+.topmargin-sm{
+margin-top: 30px;
+}
+.navbar{
+    background-color: #fafafa; ;
+    box-shadow: 0 2px 4px  rgba(0,0,0, .05) ;
+}
+.nav-link{
+    color: black;
+}
+.nav-link:hover{ color:#808080 }
+.logo{
+    min-width: 160px;
+    max-width: 180px;
+}
+.navbar-toggler{
+    font-size: 40px;
+}
+.navbar-toggler:focus{
+    outline: none;
+}
+.navbar{
+    height: 200px;
+}
+#hero{
+    background-image: url('imagenes/hero.png');
+    background-size: cover;
+    padding-top: 80px;
+    min-height: 700px;
+    color: #faf1f1 ;
+}
+.content-center {
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 50px;
+    
+    
+}
+
+@media (max-width: 575.98px) { 
+    h1 { font-size: 40px ; line-height: normal;}
+}
+
+.portfolio-container img{
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+
+}
+.portfolio-container:hover img{
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+img {
+    width: 300px;
+    height:200px;
+    margin: 30px 30px;
+    object-fit: fill;
+  }
+  .header {
+    color: #8b8686;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+
+    font-size: 35px;
+    color:#8b8686 ;
+}
+.btn-primary{
+    background-color: #a09494;
+    color: #e6e6e6;
+    border: #0e0c0c;
+}
+.btn-primary:hover{
+    background-color: #a09494;
+}
+
+.form-horizontal{
+     width: 90%;
+    margin:0 auto;
+    padding: 40px 40px;
+    max-width: 1300;
+    display: inline-block;
+    
+}
+.portfolio-container{
+    display: flex;
+    width:100%;
+    justify-content:space-around;
+    flex-wrap: nowrap;
+    max-width: 1000px;
+    margin: auto;
+
+
+}
