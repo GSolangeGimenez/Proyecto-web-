@@ -1,0 +1,29 @@
+@media screen and (max-widht:1200px){
+    #body{
+        width: 100%;
+    }
+    }
+}
+@media screen and (max-widht:1416px){
+#body{
+    width: 100%;
+}
+}
+@media screen and (max-widht:1160px){
+    #body{
+        width: 100%;
+    }
+
+}
+@media screen and (max-widht:1241px){
+    .section{
+        width: 100%;
+    }
+}
+@media screen and (max-widht:1401px){
+footer{
+    width: 100%;
+}
+.footer-all{
+    display: block !important;
+}

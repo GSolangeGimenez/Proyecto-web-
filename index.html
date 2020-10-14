@@ -1,24 +1,29 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="styles.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="responsive.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Titillium+Web&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
-  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
     <title>Giménez Propiedades</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg">
     <div class="container">
-        <a class="navbar-brand" href="#"><img src=imagenes/gimenez.jpg class="logo" alt="logo"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="#"><img src=imagenes/gimenez.jpg class="logo-brand" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"aria-label="Toggle navigation">
           <i class="icon ion-md-menu"></i>
-        </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    </button>
+      <div class="collapse navbar-collapse" id="navbarNav"  id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <a class="nav-link" href="#" id="Home">Alquiler</a>
@@ -28,104 +33,154 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#"id="Consultoría"> Emprendimiento</a>
-              </a>
+            </li>
               <li class="nav-item">
                 <a class="nav-link" href="#" id="Publicaciones"> Tasacion</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" id="Quienessomos">Quienes somos</a>
+              <a class="nav-link" href="#" id="Quienessomos">Prensa</a>
+            </li>
               <li class="nav-item">
                 <a class="nav-link" href="#" id="Contacto"> Contacto</a>
             </li>
           </ul>
       </div>
+      
     </div>
       </nav>
       <section id="hero">
-       <div class="container">
+       <div class="container-brokers">
          <div class="content-center topmargin-lg">
-         <h1> Brokers Inmobiliarios </h1>
-         <p>Somos profesionales especializados en Ventas, Emprendimientos, Tasaciones, y Administración de Alquileres. Asumimos el compromiso de brindar la mejor calidad de servicio a nuestros clientes, ofreciéndoles  soluciones  de acuerdo a sus necesidades, teniendo en cuenta la situacion jurídica en la que se encuentre el bien y su titular respecto a él.</p>
-         <a href="#" class="btn btn-light topmargin-sm">Explorar ahora<i class="icon ion-md-arrow-dropright-circle"></i></a>
+         <h1 class="brokers"> Brokers Inmobiliarios </h1>
+         <p class="p1">Somos profesionales especializados en Ventas, Emprendimientos, Tasaciones, y Administración de Alquileres. Asumimos el compromiso de brindar la mejor calidad de servicio a nuestros clientes, ofreciéndoles  soluciones  de acuerdo a sus necesidades, teniendo en cuenta la situacion jurídica en la que se encuentre el bien y su titular respecto a él.</p>
+         <div class="boton"><a href="#" class="btn btn-light topmargin-sm">Explorar ahora<i class="icon ion-md-arrow-dropright-circle"></i></a></div>
         </div>
         </div>
         </section>
-      <section id="propiedades">
-      <div class=" container-fluid">
-          <H2 class="subtitulo"><b>Propiedades destacadas</b></H2>
-          <P class="parrafo2">Tenemos a tu disposición una amplia cartelera de propiedades (en Venta y Alquiler), para facilitar tu búsqueda de acuerdo a tus necesidades y alcances, buscando siempre la mejor opcion que cumpla con tus expectativas. </P>
-           </div>
-
-              <div class="portfolio-container">
-            
-              <img src="imagenes/casa.jpg" alt="">
-
-               <img src="imagenes/casa2.jpg" alt="">
-                
-              <img src="imagenes/casa3.jpg" alt="">
-              
-              <img src="imagenes/casa4.jpg" alt="">
-              
-             </div>
-      </section>
-     <section>
-      <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="well well-sm">
-                    <form class="form-horizontal" method="post">
-                        <fieldset>
-                            <legend class="text-center header">Contáctenos</legend>
-    
-                            <div class="form-group">
-                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
-                                <div class="col-md-8">
-                                    <input id="fname" name="name" type="text" placeholder="Nombre" class="form-control">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
-                                <div class="col-md-8">
-                                    <input id="lname" name="name" type="text" placeholder="Apellido" class="form-control">
-                                </div>
-                            </div>
-    
-                            <div class="form-group">
-                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
-                                <div class="col-md-8">
-                                    <input id="email" name="email" type="text" placeholder="Correo electrónico" class="form-control">
-                                </div>
-                            </div>
-    
-                            <div class="form-group">
-                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
-                                <div class="col-md-8">
-                                    <input id="phone" name="phone" type="text" placeholder="Teléfono" class="form-control">
-                                </div>
-                            </div>
-    
-                            <div class="form-group">
-                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
-                                <div class="col-md-8">
-                                    <textarea class="form-control" id="message" name="message" placeholder="Déjenos aquí su consulta" rows="7"></textarea>
-                                </div>
-                            </div>
-    
-                            <div class="form-group">
-                                <div class="col-md-12 text-center">
-                                 <button type="submit" class="btn btn-primary btn-lg">Enviar <a href="mailto:G.solangegimenez@outlook.com"></a></button></a>
-                                </div>
-                            </div>
-                        </fieldset>
-                    </form> 
-                </div>
-            </div>
+         <div class="content-buscador">
+          <input id="cajita" placeholder="Buscar Propiedad">
+         <i class="small material-icons">search</i> 
         </div>
+      <section class="section">
+          <div class="container">
+            <div class="cajita">
+              La contratación de un estudio inmobiliario es una decisión importante que no debe basarse únicamente en anuncios publicitarios. Antes de decidir contáctenos con su situación y le brindaremos la información necesaria y los datos sobre nuestra experiencia. El estudio está formado por un equipo de profesionales enfocados en brindar una atención seria y responsable valorando y respetando el tiempo de nuestros clientes y asegurando atención los 365 días del año y el menor tiempo de respuesta que el caso permita.
+             </div>
+            <div class="row">
+              <div class="col s12">
+                  <h1 class="center-align titulo">¿Qué propiedad estás buscando?</h1>
+                  <div class="carousel center-align">
+                    <div class="carousel-item">
+                      <h2 class="subtitulo"> Alquiler</h2> 
+                    <div class="linea-division"></div>
+                    <p id="consultar">Consultar</p>
+                    <img src="imagenes/hero.jpg.jpg" alt="">
+                    </div>
+                    <div class="carousel-item">
+                      <h2 class="subtitulo"> Ventas</h2>
+                    <div class="linea-division"></div>
+                    <p id="consultar">Consultar</p>
+                    <img src="imagenes/casa.jpg" alt="">
+                    </div>
+                    <div class="carousel-item">
+                      <h2 class="subtitulo"> Tasacion</h2>
+                    <div class="linea-division"></div>
+                    <p id="consultar">Consultar</p>
+                    <img src="imagenes/casa4.jpg" alt="">
+                    </div>
+                    <div class="carousel-item">
+                      <h2 class="subtitulo"> Nuevo</h2>
+                    <div class="linea-division"></div>
+                    <p id="consultar">Consultar</p>
+                    <img src="imagenes/casa3.jpg.jpg" alt="">
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </section>
+          <section id="section3">
+          <div id="general">
+            <div class="cajas-todas">
+           <div class="caja1">
+            <img  class="imagen1"src="imagenes/mision.jpg" width="100%" alt="">
+            <span>Misión</span>
+            <p class="p2"> La consumación de acuerdos, la resolución de disputas, y el cumplimiento de la ley son las razones de nuestra existencia como organización. En nuestra opinión, los argumentos y razonamientos civiles son el camino hacia resoluciones y progresos pacíficos. Servimos a nuestros clientes ayudándolos a lograr grandes resultados. Los abogados del estudio jurídico muestran una firme voluntad de explorar alternativas para ayudar a resolver desacuerdos y luego poder trabajar con otras partes para encontrar y seguir el mejor camino. Es a través del uso de estas habilidades que podemos ofrecer valor a nuestros clientes.</p>
+ 
+            </div>
+            <div class="caja2"> 
+              <img  class="imagen2"src="imagenes/vision.jpg"width="100%"  alt="">
+            <span>Visión</span>
+            <p class="p3">Nuestra visión es proporcionar a nuestros clientes asesoría legal especializada de manera oportuna y eficiente. Nos esforzamos por manejar cada asunto con responsabilidad y capacidad de respuesta, como si estuviéramos representándonos a nosotros mismos. Centramos nuestra atención en los aspectos legales de la situación para que nuestros clientes puedan enfocar su atención en el éxito de su vida o su negocio. Nuestra visión refleja nuestros valores: integridad, servicio, excelencia y trabajo en equipo. </p>
+            </div>
+          </div>
+        </div>
+        </section>
+       <br>
+       <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+         <footer>
+        <div id="footer">
+    
+         <div class="footer-all">
+            <div  class="contenedor-direccion">
+          <div class="direccion">
+            <h4> Direccion</h4>
+            <br>
+             <p class="p4"><img class="imagens" src="imagenes/ubicacion.jpg">
+              <br>
+              <br>
+              Estudio Jurídico  Inmobiliario Gimenez Propiedades Peña 681 Piso 2, Dpto. 4, Ciudad Autónoma de Buenos Aires Buenos Aires Argentina, C1020ADM
+            </p>
+             </div>
+             </div>
+             <div  class="contenedor-telefono">
+          <div class="telefono">
+            <h4> Telefono</h4>
+           <br>
+             <p class="p5">  <img class ="imagens"src="imagenes/telefono.jpg">
+             <br>
+             <br>
+             (+54) 0221 4386091
+             <br>
+             <br>
+             (+54) 911 68873042
+             
+            </p>
+        </div>
+      </div>
+      <div  class="contenedor-boletin">
+        <div class="boletin">
+          <h4> Boletin</h4>
+          <br>
+           <p class="p6">  <img class="imagens" src="imagenes/carta.jpg" alt=""> </p>
+           <form method="post" action="email/newsletter.asp">
+            <input type="text" name="nombre" placeholder="Nombre y Apellido" aria-label="Nombre y Apellido" required="">
+            <input type="email" name="email" placeholder="Email" aria-label="Email" required="">
+            </label>
+            <br>
+            <br>
+            <input type="submit" value="Suscribir">
+            </form>
+           
+     </div>
     </div>
-     </section>
-    <!-- <script src="JS/jquery.js"></script>
-     <script src="JS/jquery.superslides.js"></script>-->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </div>
+</footer>
 
-</body>
-</html>
+      
+        
+           <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+           <script src="main.js"></script>
+      </body>
+      </html>
